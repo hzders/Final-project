@@ -1,0 +1,13 @@
+Package: Chemoindex
+Version: 0.0
+Date: 2017-11-14
+Title: 
+Authors@R: person("Lindsay", "Clark", role = c("aut", "cre"),
+                  email = "lvclark@illinois.edu")
+Author: Lindsay Clark [aut, cre]
+Maintainer: Lindsay Clark <lvclark@illinois.edu>
+Description: This package includes functions to estimate minor allele frequencies
+  from numerical SNP data, plot histograms of minor allele frequencies, and
+  filter SNP data based on minor allele frequencies.
+Url: 
+License: GPL-3
