@@ -1,1 +1,3 @@
 export(getci, moreci, barci)
+importFrom("graphics", "arrows", "barplot", "segments")
+importFrom("stats", "na.omit", "sd", "var")

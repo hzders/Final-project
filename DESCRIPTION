@@ -6,7 +6,11 @@ Authors@R: person("Ziduan", "Han", role = c("aut", "cre"),
                   email = "zhan22@illinois.edu")
 Author: Ziduan Han [aut, cre]
 Maintainer: Ziduan Han <zhan22@illinois.edu>
-Description: This package includes three function to calculate
-  the chemoindex of nematodes to chemicals
-Url: 
+Description: This package includes three functions to calculate
+  the chemoindex (CI) of nematodes to chemicals. Using a dataframe, 
+  the functions can perform the calculation for CI, calculate the mean and 
+  standard deviation and standard error of CI. Furthermore, it can make a 
+  barchart based on the mean and add standard deviation or standard error 
+  to the bar.
+Url: https://github.com/hzders/Final-project.git
 License: GPL-2
