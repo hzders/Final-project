@@ -6,5 +6,4 @@
 ^SNPfreq.rproj$
 ^.Rhistory$
 ^.RData$
-^.*\.Rproj$
-^\.Rproj\.user$
+
