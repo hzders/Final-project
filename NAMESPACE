@@ -1,1 +1,1 @@
-export(getci, getci, barci)
+export(getci, moreci, barci)

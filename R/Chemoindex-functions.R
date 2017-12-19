@@ -38,9 +38,17 @@ moreci <- function(a){
   return (result)
 }
 
-barci <- function(a){
+barci <- function(a,stderror){
   b <- moreci(a)
-  return(barplot(b[,1], main="Chemotaxis Index", xlab = "Chemical",
-                 ylim = c(-1,1), ylab = "CI",  ))
+  if (stderror == TRUE){
+    d <- 3
+  }else{
+    d <- 2
+  }
+  barCenter <- barplot(b[,1], main="Chemotaxis Index", xlab = "Chemical",
+                       ylim = c(-1.5,1.5), ylab = "CI")
+  c <- segments(barCenter, b[,1]-b[,d]*2,barCenter, b[,1]+b[,d]*2, lwd=2)
+  c <- arrows(barCenters, b[,1]-b[,d]*2,barCenter, b[,1]+b[,d]*2, lwd=2, angle=90, code=3)
+  return(c)
 }
 
