@@ -3,9 +3,8 @@
 ^.gitattributes$
 ^.gitignore$
 ^README.md$
-^SNPfreq.rproj$
+^Chemoindex.rproj$
 ^.Rhistory$
 ^.RData$
 
-^.*\.Rproj$
-^\.Rproj\.user$
+
